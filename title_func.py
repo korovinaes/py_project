@@ -5,3 +5,7 @@ def to_title(string: str) -> str:
 def to_upper(string: str) -> str:
     """Принимает строку и возвращает её со всеми заглавными буквами."""
     return string.upper()
+
+def to_lower(string: str) -> str:
+    """Принимает строку и возвращает её со всеми буквами."""
+    return string.lower()
